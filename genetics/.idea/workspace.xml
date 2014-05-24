@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="111dcc42-0a19-44fb-8250-0c05d24f1cb7" name="Default" comment="Idea konfiguracja">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/genetics/run/ClassicGeneticAlgorithm.java" afterPath="$PROJECT_DIR$/src/genetics/run/ClassicGeneticAlgorithm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/genetics/run/Run.java" afterPath="$PROJECT_DIR$/src/genetics/run/Run.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="genetics.iws" />
@@ -57,6 +54,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -366,6 +366,11 @@
       <created>1400876722551</created>
       <updated>1400876722551</updated>
     </task>
+    <task id="LOCAL-00001" summary="Idea konfiguracja">
+      <created>1400927978920</created>
+      <updated>1400927978920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
