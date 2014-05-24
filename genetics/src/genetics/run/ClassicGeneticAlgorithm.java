@@ -18,7 +18,7 @@ public class ClassicGeneticAlgorithm {
 	}
 	
 	public List<Specimen> selection(List<Specimen> population, List<SpecimenRouletteData> data) {
-		List<Specimen> newPopulation = new ArrayList<>();
+		List<Specimen> newPopulation = new ArrayList<Specimen>();
 		selectNewPopulation(population, newPopulation, data);
 		
 		//hybridization
@@ -70,7 +70,7 @@ public class ClassicGeneticAlgorithm {
 	}
 	
 	private void doHybridization(List<Specimen> newPopulation) {
-		List<Integer> hybridIndxs = new ArrayList<>();
+		List<Integer> hybridIndxs = new ArrayList<Integer>();
 		for(int i=0; i< newPopulation.size(); i++) {	
 			int r = (int)(Math.random() * newPopulation.size());
 		

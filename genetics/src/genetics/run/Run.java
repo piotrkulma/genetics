@@ -16,13 +16,13 @@ public class Run {
 		int min = -1;
 		int interval = 3;
 		int bitLen = 22;
-		int populationSize = 5000;
+		int populationSize = 50;
 		int generation = 0;
 		
 		ClassicGeneticAlgorithm cga = new ClassicGeneticAlgorithm(0.25, 0.01);
 		
-		List<Specimen> population = new ArrayList<>();
-		List<SpecimenRouletteData> data = new ArrayList<>();
+		List<Specimen> population = new ArrayList<Specimen>();
+		List<SpecimenRouletteData> data = new ArrayList<SpecimenRouletteData>();
 				
 		GeneticUtils.initData(populationSize, data);
 		GeneticUtils.drawPopulation(bitLen, populationSize, population);
